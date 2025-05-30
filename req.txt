@@ -1,0 +1,5 @@
+chainlit
+pandas
+torch
+sentence-transformers
+transformers
