@@ -1,4 +1,4 @@
-#set GROQ_API_KEY=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
+#set GROQ_API_KEY="Your groq api key here"
 import os
 import chainlit as cl
 import pandas as pd
@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer, util
 from groq import Groq
 
 # Load API Key
-groq_api_key = os.getenv("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")
+groq_api_key = os.getenv("Your groq api key here")
 groq_client = Groq(api_key=groq_api_key)
 
 # Load dataset
